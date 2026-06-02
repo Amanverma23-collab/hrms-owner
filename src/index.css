@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Accessible checkbox */
+input[type="checkbox"] {
+  accent-color: rgba(56, 189, 248, 0.9);
+}
